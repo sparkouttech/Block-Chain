@@ -1,0 +1,29 @@
+{
+  "name": "blockchain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d build",
+    "start": "npm run build & node build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sivabharathy-Sparkout/blockchain.git"
+  },
+  "author": "sivabharathy-sparkout",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sivabharathy-Sparkout/blockchain/issues"
+  },
+  "homepage": "https://github.com/Sivabharathy-Sparkout/blockchain#readme",
+  "dependencies": {
+    "cryptr": "^4.0.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
